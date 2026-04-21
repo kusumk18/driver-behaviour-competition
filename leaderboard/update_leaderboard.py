@@ -5,7 +5,7 @@ from evaluate import evaluate
 
 SUBMISSIONS_DIR = "../submissions/"
 GROUND_TRUTH = "../data/test_motion_data.csv"   # This stays LOCAL, never pushed
-LEADERBOARD_FILE = "leaderboard.json"
+LEADERBOARD_FILE = "../leaderboard.json"
 
 def update():
     results = []
